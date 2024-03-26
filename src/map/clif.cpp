@@ -277,7 +277,7 @@ static inline unsigned int mes_len_check(char* mes, unsigned int len, unsigned i
 static char map_ip_str[128];
 static uint32 map_ip;
 static uint32 bind_ip = INADDR_ANY;
-static uint16 map_port = 5121;
+static uint16 map_port = 5122;
 static bool clif_ally_only = false;
 int map_fd;
 

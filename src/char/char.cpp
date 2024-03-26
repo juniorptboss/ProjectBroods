@@ -2740,12 +2740,12 @@ void char_set_defaults(){
 	safestrncpy(charserv_config.wisp_server_name,"Server",sizeof(charserv_config.wisp_server_name));
 //	charserv_config.login_ip_str[128];
 	charserv_config.login_ip = 0;
-	charserv_config.login_port = 6900;
+	charserv_config.login_port = 6901;
 //	charserv_config.char_ip_str[128];
 	charserv_config.char_ip = 0;
 //	charserv_config.bind_ip_str[128];
 	charserv_config.bind_ip = INADDR_ANY;
-	charserv_config.char_port = 6121;
+	charserv_config.char_port = 6122;
 	charserv_config.char_maintenance = 0;
 	charserv_config.char_new = true;
 	charserv_config.char_new_display = 0;

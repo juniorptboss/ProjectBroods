@@ -744,7 +744,7 @@ bool login_config_read(const char* cfgName, bool normal) {
  */
 void login_set_defaults() {
 	login_config.login_ip = INADDR_ANY;
-	login_config.login_port = 6900;
+	login_config.login_port = 6901;
 	login_config.ipban_cleanup_interval = 60;
 	login_config.ip_sync_interval = 0;
 	login_config.log_login = true;

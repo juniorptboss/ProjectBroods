@@ -110,7 +110,7 @@ int chrif_connected = 0;
 int char_fd = -1;
 static char char_ip_str[128];
 static uint32 char_ip = 0;
-static uint16 char_port = 6121;
+static uint16 char_port = 6122;
 static char userid[NAME_LENGTH], passwd[NAME_LENGTH];
 static int chrif_state = 0;
 int other_mapserver_count=0; //Holds count of how many other map servers are online (apart of this instance) [Skotlex]

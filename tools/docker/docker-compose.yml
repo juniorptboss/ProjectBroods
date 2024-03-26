@@ -38,7 +38,7 @@ services:
         container_name: "rathena-login"
         command: sh -c "/bin/wait-for db:3306 -- /rathena/login-server"
         ports:
-            - "6900:6900" # login server
+            - "6901:6901" # login server
         volumes:
             - "../..:/rathena" # mount git repo directory inside container
             - "./asset/inter_conf.txt:/rathena/conf/import/inter_conf.txt" # load db connection
@@ -57,7 +57,7 @@ services:
         container_name: "rathena-char"
         command: sh -c "/bin/wait-for db:3306 -- /rathena/char-server"
         ports:
-            - "6121:6121" # char server
+            - "6122:6122" # char server
         volumes:
             - "../..:/rathena" # mount git repo directory inside container
             - "./asset/inter_conf.txt:/rathena/conf/import/inter_conf.txt" # load db connection
