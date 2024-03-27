@@ -17,6 +17,9 @@
 //= 1.5 Added use of F_HasEdenGroupMark function. [Ragno]
 //============================================================
 
+
+/* Tirando NPCs
+
 moc_para01,44,38,3	script	Mission [71 - 85]	857,{
 	if (!callfunc("F_HasEdenGroupMark")) {
 		mes "- Only members of the -";
@@ -226,3 +229,6 @@ L_Quest:
 		close;
 	}
 }
+
+
+*/
