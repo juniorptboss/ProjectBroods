@@ -16,6 +16,8 @@
 //= 1.4 Added use of F_HasEdenGroupMark function. [Ragno]
 //============================================================
 
+/* Tirando NPCs
+
 moc_para01,38,38,3	script	Mission [26 - 40]	857,{
 	if (!callfunc("F_HasEdenGroupMark")) {
 		mes "You are not a qualified member. You can not use the bulletin board.";
@@ -674,3 +676,6 @@ L_Reward:
 	mes "I will give you a reward as promised.";
 	return;
 }
+
+
+*/

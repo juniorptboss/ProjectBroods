@@ -16,6 +16,9 @@
 //= 1.4 Added use of F_HasEdenGroupMark function. [Ragno]
 //============================================================
 
+
+/* Tirando NPCs
+
 moc_para01,40,38,3	script	Mission [41 - 55]	857,{
 	if (!callfunc("F_HasEdenGroupMark")) {
 		mes "You are not an Eden group member. You are not qualified to access the bulletin board.";
@@ -89,3 +92,6 @@ L_Quest:
 	}
 	close;
 }
+
+
+*/

@@ -25,7 +25,7 @@
 
 // Common NPCs :: lv_tre
 //============================================================
-moc_para01,27,35,5	script	Secretary Lime Evenor	4_F_EDEN_OFFICER,{
+moc_para01,27,35,5	script	Secretaria Lime Evenor	4_F_EDEN_OFFICER,{
 	if (checkweight(1201,1) == 0 || (MaxWeight - Weight) < 2000) {
 		mes "- Wait a minute !! -";
 		mes "- Currently you're carrying -";
@@ -55,34 +55,40 @@ moc_para01,27,35,5	script	Secretary Lime Evenor	4_F_EDEN_OFFICER,{
 		close;
 	}
 	mes "[Lime Evenor]";
-	mes "People who follow their dreams and romances listen to me. We are representatives of the paradise called 'The garden of Eden' called the Eden group . There is no place like this anywhere.";
-	mes "Hello. Can I help you?";
+	mes "Bem-vindo, ..hmmm...acho que sei o seu nome...";
+	next;
+	mes "[Lime Evenor]";
+	mes ".. ah, ^3131FF"+strcharinfo(0)+"^000000, que veio do outro mundo.";
+	next;
+	mes "[Lime Evenor]";
+	mes "Bom, pode me chamar de Lime Evenor, estou aqui para auxiliar suas aventuras em Dasnora. Por favor, me informe sobre os detalhes que precisa saber.";
 	next;
 	while (1) {
-		switch (select("What is Eden group?:Join the Eden Group.:Register new mission.:Search for missions.:Cancel.")) {
+		switch (select("Qual foi dessa turma?:Quero fazer parte disso!:Cancelar.")) {
 		case 1:
 			mes "[Lime Evenor]";
-			mes "Eden Group is a group that helps people who are suffering from distresses in Midgard.";
+			mes "Um grupo que ajuda os aventureiros a lidar com os problemas em Dasnora.";
 			next;
 			mes "[Lime Evenor]";
-			mes "If people need help, we put up the case on the bulletin board and introduce it to our members who are eager to help those in need.";
+			mes "Se as pessoas precisarem de ajuda, colocamos o caso no mural e apresentamos aos nossos aventureiros que ficam dispostos para ajudar os necessitados.";
 			next;
 			mes "[Lime Evenor]";
-			mes "Eden members will review the missions and help those who post them up.";
-			mes "Members do these missions for rewards.";
+			mes "Nos revisamos a quest e postamos no mural. Sempre tentamos recompensar o aventureiro como forma de pagamento.";
 			next;
 			mes "[Lime Evenor]";
-			mes "If you are not too familiar with Midgard, this is a great way to explore the world.";
-			mes "Or, if you are mature enough, you can travel the world and make new friends while doing missions. Your honorable name will be spread out among lands.";
+			mes "Se quiser se familiarizar no mundo, esta eh uma otima maneira de seguir.";
+			next;
+			mes "[Lime Evenor]";
+			mes "Poder viajar pelo mundo e fazer novos amigos enquanto nos ajuda. Seu nome honroso vai ser espalhado por terras distantes.";
 			next;
 			break;
 		case 2:
 			if (!callfunc("F_HasEdenGroupMark")) {
 				mes "[Lime Evenor]";
-				mes "You can be a Eden's member by simply registering with me.";
-				mes "Would you like to join Eden Group?";
+				mes "Que bom! Vamos ao que interessa.";
+				mes "Tem certeza que vai nos ajudar?";
 				next;
-				switch (select("Yes, I want to join.:No, I don't want to join.")) {
+				switch (select("Sim, quero ajudar.:Negativo, tenho mais oque fazer.")) {
 				case 1:
 					mes "[Lime Evenor]";
 					mes "Aright. Excellent! Please write down your name here.";
@@ -131,6 +137,16 @@ moc_para01,27,35,5	script	Secretary Lime Evenor	4_F_EDEN_OFFICER,{
 				next;
 			}
 			break;
+		case 3:
+			mes "[Lime Evenor]";
+			mes "If you have any questions please come back again.";
+			close;
+		}
+	}
+}
+
+		// ----------------------- Retirado---------------------------------------
+		/*
 		case 3:
 			mes "[Lime Evenor]";
 			mes "Do you want to register some missions that you want us to do?";
@@ -203,15 +219,10 @@ moc_para01,27,35,5	script	Secretary Lime Evenor	4_F_EDEN_OFFICER,{
 				mes "You need to join Eden Group first if you want to do some missions.";
 				close;
 			}
-			break;
-		case 5:
-			mes "[Lime Evenor]";
-			mes "If you have any questions please come back again.";
-			close;
-		}
-	}
-	close;
-}
+			break;	
+		
+
+		*/
 
 -	script	Eden Teleport Officer#0::eto	-1,{
 	mes "[Eden Teleport Officer]";
@@ -436,3 +447,4 @@ moc_para01,20,35,5	script	Office Assistant Neede	814,{
 function	script	F_HasEdenGroupMark	{
 	return (countitem(6219) > 0 || countitem(22508) > 0);
 }
+
