@@ -228,15 +228,27 @@ moc_para01,35,23,3	script	Kafra Teleportation#eden	4_F_DRKAFRA01,{
 	mes "Welcome.";
 	mes "The Kafra services are always on your side.";
 	next;
+
+	/*
+	//
+	//   Comentando para retirar esta condicional.
+	//
+
 	mes "[Kafra Employee]";
 	mes "To reward adventurer support, the Kafra Corporation in cooperation with the Eden Group provides free services for ^ff0000Beginner Adventurers Below Level 39^000000.";
 	next;
+	
 	if (BaseLevel > 40) {
 		mes "[Kafra Employee]";
 		mes "We do not offer free teleportation services for adventurers ^ff0000above level 40^000000.";
 		mes "Search for Kafra Teleportation services in the city.";
 		close3;
 	}
+
+
+	*/
+
+
 	mes "[Kafra Employee]";
 	mes "Please choose your destination.";
 	next;

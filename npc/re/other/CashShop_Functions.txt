@@ -9,6 +9,9 @@
 
 // VIP Functions
 //============================================================
+
+/*
+
 function	script	VIP_Third_Class	{
 	if (!vip_status(VIP_STATUS_ACTIVE)) {
 		mes "[Voice from nowhere]";
@@ -39,3 +42,5 @@ function	script	VIP_Third_Class	{
 	}
 	return;
 }
+
+*/

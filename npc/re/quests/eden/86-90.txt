@@ -178,13 +178,13 @@ L_Quest:
 		setquest .@quest2;
 		getexp getarg(2),0;
 		close;
-	}/* else if (.@hunting == 3) {
-//		recall_completequest .@quest1
+	} else if (.@hunting == 3) {
+		recall_completequest .@quest1
 		erasequest .@quest1;
 		mes "[86-90 Mission Board]";
 		mes "You have re-accepted the "+getarg(1)+" Hunting mission.";
 		close;
-	}*/ else {
+	} else {
 		mes "[86-90 Mission Board]";
 		mes getarg(4);
 		next;
