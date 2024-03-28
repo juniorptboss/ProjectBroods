@@ -48,6 +48,23 @@ Body:
     Commands:
       changedress: true
       resurrect: true
+      help: true
+      rates: true
+      uptime: true
+      showdelay: true
+      exp: true
+      mobinfo: true
+      iteminfo: true
+      whodrops: true
+      time: true
+      jailtime: true
+      hominfo: true
+      homstats: true
+      showexp: true
+      showzeny: true
+      whereis: true
+      autoloot: true
+      autoloottype: true
     Permissions:
       # without this basic permissions regular players could not trade or party
       can_trade: true
