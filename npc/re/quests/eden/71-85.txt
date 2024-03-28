@@ -211,11 +211,11 @@ L_Quest:
 				getexp .@exp,0;
 				mes "You've received EXP for finishing the quest.";
 			}
-		}/* else if (.@hunting == 3) {
+		} else if (.@hunting == 3) {
 //			recall_completequest .@quest
 			erasequest .@quest;
 			mes "You have re-accepted the quest '"+.@name$+"'.";
-		}*/ else {
+		}else {
 			mes getarg(1);
 			mes getarg(2);
 			next;
