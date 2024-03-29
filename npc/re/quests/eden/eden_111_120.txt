@@ -16,7 +16,7 @@
 //============================================================
 
 
-/* Tirando NPCs
+
 
 moc_para01,17,95,5	script	Mingmin#1	4_F_GENETIC,{
 	mes "[Mingmin]";
@@ -1153,4 +1153,3 @@ S_Gathering:
 	return;
 }
 
-/* Tirando NPCs
