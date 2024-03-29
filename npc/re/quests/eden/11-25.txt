@@ -18,8 +18,6 @@
 //============================================================
 
 
-/* Tirando NPCs
-
 moc_para01,36,38,3	script	Mission [11 - 25]#Tuto	4_BOARD3,{
 	if (!callfunc("F_HasEdenGroupMark")) {
 		mes "- You need to have an -";
@@ -167,5 +165,3 @@ L_Quest:
 	}
 }
 
-
-*/

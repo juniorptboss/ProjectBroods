@@ -19,7 +19,7 @@
 //= 1.7 Added use of F_HasEdenGroupMark function. [Ragno]
 //============================================================
 
-/* Tirando NPCs
+
 
 moc_para01,42,38,3	script	Mission [56 - 70]	857,{
 	if (!callfunc("F_HasEdenGroupMark")) {
@@ -367,4 +367,3 @@ L_Details:
 }
 
 
-*/

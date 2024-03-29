@@ -15,7 +15,7 @@
 //= 1.2 Added use of F_HasEdenGroupMark function. [Ragno]
 //============================================================
 
-/* Tirando NPCs
+
 
 moc_para01,37,95,5	script	Gelkah#1	4_F_GELKA,{
 	cutin "gelca01",2;
@@ -1235,4 +1235,3 @@ moc_para01,41,95,5	script	Rohtert#12	4_M_ROTERT,{
 }
 
 
-*/

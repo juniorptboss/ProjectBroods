@@ -16,7 +16,7 @@
 //============================================================
 
 
-/* Tirando NPCs
+
 
 moc_para01,44,81,3	script	Melody-Jack#1	4_M_MELODY,8,8,{
 	mes "[Melody-Jack]";
@@ -812,4 +812,3 @@ tha_t06,126,128,3	script	Suspicious Monster#1	4_DEVIRUCHI,{
 }
 
 
-*/

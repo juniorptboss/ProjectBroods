@@ -18,7 +18,7 @@
 //============================================================
 
 
-/* Tirando NPCs
+
 
 moc_para01,44,38,3	script	Mission [71 - 85]	857,{
 	if (!callfunc("F_HasEdenGroupMark")) {
@@ -231,4 +231,3 @@ L_Quest:
 }
 
 
-*/
