@@ -14,8 +14,6 @@ O conteúdo está distribuído entre três branches:
 | [`master`](https://github.com/juniorptboss/ProjectBroods/tree/master) | Código da base rAthena, configurações, dados e scripts do projeto. |
 | [`dev`](https://github.com/juniorptboss/ProjectBroods/tree/dev) | Outra linha de desenvolvimento, com alterações próprias em relação à `master`. |
 
-`master` e `dev` possuem históricos divergentes: cada uma contém commits que não estão na outra. A indicação das branches acima serve para localizar o conteúdo, não para classificar uma versão como estável ou pronta para uso.
-
 ## Base técnica
 
 A base rAthena utiliza **C++** para o servidor e inclui mecanismos de scripts para personagens não jogáveis (NPCs), configurações e dados do jogo. A documentação da base descreve o uso de **MySQL ou MariaDB**.
