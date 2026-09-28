@@ -16,9 +16,7 @@ O conteúdo está distribuído entre três branches:
 
 ## Base técnica
 
-A base rAthena utiliza **C++** para o servidor e inclui mecanismos de scripts para personagens não jogáveis (NPCs), configurações e dados do jogo. A documentação da base descreve o uso de **MySQL ou MariaDB**.
-
-Essas são características da tecnologia utilizada. O código do rAthena e as alterações específicas do ProjectBroods têm origens distintas.
+A base rAthena utiliza **C++** para o servidor e inclui mecanismos de scripts para personagens não jogáveis (NPCs), configurações e dados do jogo. O uso de **MySQL ou MariaDB**.
 
 ## Organização do conteúdo
 
